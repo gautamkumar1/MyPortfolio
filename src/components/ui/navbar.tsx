@@ -3,7 +3,7 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
 import { getData } from "@/lib/serverUtils";
-import { AiOutlinePlusCircle } from "react-icons/ai";
+
 
 export default async function Navbar() {
   const data = await getData();
