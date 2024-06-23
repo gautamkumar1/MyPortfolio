@@ -39,7 +39,7 @@ export default async function Home() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
-              src="/assets/ai-image.png"
+              src="/assets/dp1.jpg"
               width={280}
               height={280}
               alt="Developer"

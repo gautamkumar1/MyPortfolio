@@ -3,7 +3,7 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
 import { getData } from "@/lib/serverUtils";
-
+import { AiOutlinePlusCircle } from "react-icons/ai";
 
 export default async function Navbar() {
   const data = await getData();
@@ -28,6 +28,7 @@ export default async function Navbar() {
           <Link href="assets/Gautam Kumar Resume.pdf" download="Gautam Kumar Resume" target="_blank" className="text-sm transition-colors text-white-800 font-bold hover:text-primary dark:hover:text-[#23C55F]">
             <p className="text-text-xs text-teal-400">𝑹𝒆𝒔𝒖𝒎𝒆 📜</p>
           </Link>
+
           
         </nav>
         <Sheet>
