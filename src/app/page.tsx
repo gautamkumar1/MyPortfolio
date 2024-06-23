@@ -25,7 +25,7 @@ import { IconCloudDemo } from "@/components/magicui/skill";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { BorderBeam } from "@/components/magicui/border-beam";
+
 
 
 export default async function Home() {
