@@ -4,16 +4,17 @@ import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
 import { getData } from "@/lib/serverUtils";
 
+
 export default async function Navbar() {
   const data = await getData();
 
   return (
-    <header className='flex p-4 items-center justify-between bg-[#121212] shadow-sm'>
+    <header className="fixed top-0 z-50 w-full bg-[#121212] shadow-sm flex h-16 items-center justify-between px-4 md:px-6">
       <div className="container max-w-5xl mx-auto flex h-18 items-center justify-between py-2 px-4 md:px-6">
         <Link href="#" className="flex items-center" prefetch={false}>
           <div className='text-2xl text-white font-bold underline underline-offset-8 decoration-green-500 -rotate-6'>𝒢𝒶𝓊𝓉𝒶𝓂 👨🏻‍💻 </div>
         </Link>
-        <nav className="hidden space-x-4 lg:flex items-center">
+        <nav className="hidden space-x-4 lg:flex">
           {data.visual.navbar.links.map((item) => (
             <Link
               href={item.path}
@@ -24,30 +25,10 @@ export default async function Navbar() {
             </Link>
           ))}
           {/* Resume Btn */}
-          <Link href="assets/Gautam Kumar Resume.pdf" download="Gautam Kumar Resume" target="_blank">
-            <button
-              className="cursor-pointer flex items-center justify-center bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"
-            >
-              <span className="flex items-center">
-                Resume
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  className="w-5 h-5 ml-2 animate-bounce"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-                  ></path>
-                </svg>
-              </span>
-            </button>
-
+          <Link href="assets/Gautam Kumar Resume.pdf" download="Gautam Kumar Resume" target="_blank" className="text-sm transition-colors text-white-800 font-bold hover:text-primary dark:hover:text-[#23C55F]">
+            <p className="text-text-xs text-teal-400">𝑹𝒆𝒔𝒖𝒎𝒆 📜</p>
           </Link>
+          
         </nav>
         <Sheet>
           <SheetTrigger asChild>
@@ -68,30 +49,9 @@ export default async function Navbar() {
                 </Link>
               ))}
               {/* Resume Btn */}
-          <Link href="/public/assets/Gautam Kumar Resume.pdf" download="Gautam Kumar Resume" target="_blank">
-            <button
-              className="cursor-pointer flex items-center justify-center bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"
-            >
-              <span className="flex items-center">
-                Resume
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  className="w-5 h-5 ml-2 animate-bounce"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-                  ></path>
-                </svg>
-              </span>
-            </button>
-
-          </Link>
+              <Link href="assets/Gautam Kumar Resume.pdf" download="Gautam Kumar Resume" target="_blank" className="text-sm transition-colors text-white-800 font-bold hover:text-primary dark:hover:text-[#23C55F]">
+                <p className="text-text-xs text-teal-400">𝑹𝒆𝒔𝒖𝒎𝒆 📜</p>
+              </Link>
             </div>
           </SheetContent>
         </Sheet>

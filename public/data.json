@@ -3,24 +3,24 @@
     "navbar": {
       "links": [
         {
-          "label": "Experience",
-          "path": "#experience"
+          "label": "Home",
+          "path": "#"
+        },
+        {
+          "label": "Skills",
+          "path": "#skills"
         },
         {
           "label": "Projects",
           "path": "#projects"
         },
         {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
           "label": "Education",
           "path": "#education"
-        },
-        {
-          "label": "Testimonials",
-          "path": "#testimonials"
-        },
-        {
-          "label": "Skills",
-          "path": "#skills"
         },
         {
           "label": "Contact Us",
@@ -40,18 +40,18 @@
     }
   },
   "personalInfo": {
-    "name": "Arif Hossain",
+    "name": "Gautam Kumar",
     "title": "Full Stack Developer",
-    "location": "Dhaka, Bangladesh",
-    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+    "location": "Bihar, India",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Also have an eye on competetive programming i.e problem solving and optimizing skills.Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
-    "email": "devarifhossain@gmail.com",
-    "phone": "123-456-7890",
-    "linkedin": "https://www.linkedin.com/in/ariflogs/",
-    "github": "https://github.com/ariflogs",
-    "twitter": "https://twitter.com/ariflogs",
-    "website": "https://johndoe.dev"
+    "email": "gautamraaz936@gmail.com",
+    "phone": "+919572898131",
+    "linkedin": "https://www.linkedin.com/in/gautamkum4r/",
+    "github": "https://github.com/gautamkumar1",
+    "twitter": "https://x.com/xXGauTamxX_",
+    "website": "#"
   },
   "skills": {
     "languages": ["JavaScript", "Python", "Java", "C++"],
@@ -62,57 +62,59 @@
   "projects": [
     {
       "id": "1",
-      "title": "Makers Tracker",
-      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "MySQL"],
-      "live_url": "https://makerstracker.com",
-      "code_repo_url": "https://makerstracker.com",
-      "cover": "/assets/project_1.jpeg"
+      "title": "AceMock AI",
+      "description": "AceMock AI is a SaaS product website that offers job seekers the opportunity to take mock interviews with AI. The AI provides real-time feedback, ratings, improved answers, and correct answers to help users enhance their interview skills.",
+      "technologies": ["Javascript", "Next.js", "ReactJs","TailwindCSS", "Shadcn UI","PostgreSQL","Drizzle ORM"],
+      "live_url": "https://acemock-ai.vercel.app/",
+      "code_repo_url": "https://github.com/gautamkumar1/AceMock-AI",
+      "cover": "/assets/project_1.png"
     },
     {
       "id": "2",
-      "title": "Pricing Bees",
-      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
-      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
-      "live_url": "https://pricingbees.com",
-      "code_repo_url": "https://pricingbees.com",
-      "cover": "/assets/project_2.jpeg"
+      "title": "G-Meet",
+      "description": "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
+      "technologies": ["Typescript", "Next.js", "Shadcn UI", "Tailwind CSS","Clerk","Getstream"],
+      "live_url": "https://g-meet-sigma.vercel.app/",
+      "code_repo_url": "https://github.com/gautamkumar1/G-Meet",
+      "cover": "/assets/project_2.png"
     },
     {
       "id": "3",
-      "title": "Indie Hustles",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
-      "cover": "/assets/project_3.jpeg"
+      "title": "Formulate",
+      "description": "A Formulate used to easily craft Form with drag and drop simplicity.",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Shadcn UI","Vercel PostgreSQL","Prisma"],
+      "live_url": "https://formulate-three.vercel.app/",
+      "code_repo_url": "https://github.com/gautamkumar1/Formulate",
+      "cover": "/assets/project_3.png"
+    },
+    {
+      "id": "4",
+      "title": "SyntaxSniper",
+      "description": "Developed a feature-rich code snippet sharing tool, leveraging a modern tech stack and incorporating additional functionalities.",
+      "technologies": ["Javascript", "React", "TailwindCSS", "Shadcn UI","Zustand"],
+      "live_url": "https://syntax-sniper.vercel.app/",
+      "code_repo_url": "https://github.com/gautamkumar1/SyntaxSniper",
+      "cover": "/assets/project_4.png"
+    },
+    {
+      "id": "5",
+      "title": "Thread",
+      "description": "A thread is a full-stack advanced social media website specifically designed for developers.",
+      "technologies": ["React", "Node.js", "Express.Js","MongoDB","Socket.io","Shadcn UI"],
+      "live_url": "https://threads-clone-vxq4.onrender.com/auth",
+      "code_repo_url": "https://github.com/gautamkumar1/threads-clone",
+      "cover": "/assets/project_5.png"
     }
   ],
   "workExperience": [
     {
       "id": "1",
-      "company": "Tech Corp",
-      "companyWebsite": "https://example.com",
-      "role": "Senior Full Stack Developer",
-      "startDate": "Jan 2020",
-      "endDate": "Present",
+      "company": "Align InfoTech",
+      "companyWebsite": "https://drive.google.com/file/d/1oFXO4i2oyaF3pJhcm6VZC-4m5S6sdKo3/view?usp=drivesdk",
+      "role": "Full-Stack Intern",
+      "startDate": "Feb 2022",
+      "endDate": "March 2022",
       "technologies": ["Socket.io", "Node.js", "Express", "React"],
-      "keyResponsibilities": [
-        "Led a team of developers to create scalable web applications.",
-        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
-        "Developed front-end applications using React and Next.js.",
-        "Integrated third-party services and APIs to enhance application functionality.",
-        "Mentored junior developers and conducted code reviews."
-      ]
-    },
-    {
-      "id": "2",
-      "company": "Web Solutions",
-      "companyWebsite": "https://example.com",
-      "role": "Full Stack Developer",
-      "startDate": "Jun 2017",
-      "endDate": "Dec 2019",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
       "keyResponsibilities": [
         "Designed and developed web applications using JavaScript and React.",
         "Built and maintained server-side APIs with Node.js and Express.",
@@ -120,25 +122,41 @@
         "Ensured applications are responsive and performant.",
         "Participated in Agile ceremonies and contributed to project planning."
       ]
+    },
+    {
+      "id": "2",
+      "company": "IT-NetworkZ Infosystems",
+      "companyWebsite": "https://drive.google.com/file/d/1T7a7_FylNtFmJtJSC__Q51BmGJNMqsOL/view?usp=drivesdk",
+      "role": "Web and Salesforce Developer",
+      "startDate": "Feb 2022",
+      "endDate": "April 2022",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "keyResponsibilities": [
+        "Write modern, performant, maintainable code for a diverse array of client and internal projects.",
+        "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements.",
+        "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders.",
+        "Worked with Respective mentors where I learned about the Customer-Relationship Model of Salesforce."
+      ]
     }
   ],
   "education": [
     {
       "id": "1",
-      "institution": "Coursera",
-      "degree": "Full Stack Web Development with React",
-      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "Priyadarshini College of Engineering,Nagpur",
+      "degree": "Bachelor of Technology in Computer Technology",
+      "description": "Completed a comprehensive curriculum in computer technology, including courses in data structures, algorithms, software engineering,artificial intelligence and etc..",
+      "startDate": "Aug 2020",
+      "endDate": "June 2024"
     },
     {
       "id": "2",
-      "institution": "University of California, Berkeley",
-      "degree": "Bachelor of Science in Computer Science",
-      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "Pw Skill",
+      "degree": "Full Stack Web Development",
+      "description": "Completed a Pw Skill specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
+      "startDate": "Feb 2023",
+      "endDate": "Dec 2023"
     }
+    
   ],
   "testimonials": [
     {

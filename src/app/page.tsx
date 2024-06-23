@@ -25,6 +25,7 @@ import { IconCloudDemo } from "@/components/magicui/skill";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { BorderBeam } from "@/components/magicui/border-beam";
 
 
 export default async function Home() {
@@ -107,6 +108,7 @@ export default async function Home() {
         id="projects"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
+        
         <h2 className="font-bold text-3xl md:text-4xl mb-12 underline underline-offset-8 decoration-green-500 -rotate-2">My Projects 🚀</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-6">
           {data.projects.map((project) => (
@@ -163,6 +165,7 @@ export default async function Home() {
             </Card>
           ))}
         </div>
+        
       </section>
       {/* Experience Section */}
       <section
