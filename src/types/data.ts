@@ -1,3 +1,5 @@
+
+
 export interface NavbarLink {
   label: string;
   path: string;
@@ -105,3 +107,7 @@ export interface Data {
   testimonials: Testimonial[];
   visual: Visual;
 }
+
+
+  
+

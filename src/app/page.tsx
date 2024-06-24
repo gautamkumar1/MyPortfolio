@@ -18,7 +18,6 @@ import {
   TwitterLogoIcon,
   GlobeIcon,
 } from "@radix-ui/react-icons";
-import { Avatar } from "@/components/ui/avatar";
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { IconCloudDemo } from "@/components/magicui/skill";
@@ -27,9 +26,9 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 
-
 export default async function Home() {
   const data = await getData();
+  // console.log(data);
 
   return (
     <main>
@@ -39,7 +38,7 @@ export default async function Home() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
-              src="/assets/dp1.jpg"
+              src="/assets/profile-pic.png"
               width={280}
               height={280}
               alt="Developer"
@@ -103,12 +102,60 @@ export default async function Home() {
         </div>
 
       </section>
+      <section
+        id="skills"
+        className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+      >
+        <h2 className="font-bold text-3xl md:text-4xl mb-12 underline underline-offset-8 decoration-green-500 -rotate-3">
+          Technologies and Tools 📚
+        </h2>
+        <div className="relative pl-6 grid gap-10">
+          {/* Language */}
+          <div className="flex flex-wrap gap-2">
+            <h3 className="font-bold">Languages : </h3>
+            {data.skills.languages.map((language, index) => (
+              <Badge key={index} variant="secondary">
+                {language}
+              </Badge>
+            ))}
+          </div>
+          {/* Frameworks and Libraries */}
+          <div className="flex flex-wrap gap-2">
+            <h3 className="font-bold">Frameworks & Libraries : </h3>
+            {data.skills.frameworks.map((framework, index) => (
+              <Badge key={index} variant="secondary">
+                {framework}
+              </Badge>
+            ))}
+          </div>
+          {/* Databases */}
+          <div className="flex flex-wrap gap-2">
+            <h3 className="font-bold">Databases : </h3>
+            {data.skills.databases.map((database, index) => (
+              <Badge key={index} variant="secondary">
+                {database}
+              </Badge>
+            ))}
+          </div>
+          {/* Tools */}
+          <div className="flex flex-wrap gap-2">
+            <h3 className="font-bold">Tools : </h3>
+            {data.skills.tools.map((tool, index) => (
+              <Badge key={index} variant="secondary">
+                {tool}
+              </Badge>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       {/* Projects Section */}
       <section
         id="projects"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
-        
+
         <h2 className="font-bold text-3xl md:text-4xl mb-12 underline underline-offset-8 decoration-green-500 -rotate-2">My Projects 🚀</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-6">
           {data.projects.map((project) => (
@@ -165,7 +212,7 @@ export default async function Home() {
             </Card>
           ))}
         </div>
-        
+
       </section>
       {/* Experience Section */}
       <section

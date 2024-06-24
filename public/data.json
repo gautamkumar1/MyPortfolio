@@ -54,10 +54,10 @@
     "website": "#"
   },
   "skills": {
-    "languages": ["JavaScript", "Python", "Java", "C++"],
-    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
-    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+    "languages": ["JavaScript", "TypeScript","Python", "Java", "Tailwind CSS","C","C++"],
+    "frameworks": ["React", "Node.js", "Express", "Next.Js","Redux","Socket.io","Shadcn UI"],
+    "databases": ["MySQL", "MongoDB", "Redis","PostgreSQL"],
+    "tools": ["Git", "Docker", "Kubernetes","AWS"]
   },
   "projects": [
     {
