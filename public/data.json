@@ -54,8 +54,8 @@
     "website": "#"
   },
   "skills": {
-    "languages": ["JavaScript", "TypeScript","Python", "Java", "Tailwind CSS","C","C++"],
-    "frameworks": ["React", "Node.js", "Express", "Next.Js","Redux","Socket.io","Shadcn UI"],
+    "languages": ["JavaScript", "TypeScript","Python", "Java","C","C++"],
+    "frameworks": ["React", "Node.js", "Express", "Next.Js","Redux","Tailwind CSS","Socket.io","Shadcn UI"],
     "databases": ["MySQL", "MongoDB", "Redis","PostgreSQL"],
     "tools": ["Git", "Docker", "Kubernetes","AWS"]
   },
