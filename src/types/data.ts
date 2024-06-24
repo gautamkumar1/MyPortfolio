@@ -108,6 +108,3 @@ export interface Data {
   visual: Visual;
 }
 
-
-  
-
