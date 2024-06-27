@@ -96,7 +96,7 @@ export default async function Home() {
       </section>
       {/* Skill Section */}
       <section className="h-screen flex  justify-center  items-center" id="skills">
-        <div className='text-3xl text-white text-center font-bold underline underline-offset-8 decoration-green-500 -rotate-6'>
+        <div className='text-3xl text-center font-bold underline underline-offset-8 decoration-green-500 -rotate-6'>
           Skills 📑
           <IconCloudDemo />
         </div>
