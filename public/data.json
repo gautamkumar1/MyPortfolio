@@ -71,6 +71,15 @@
     },
     {
       "id": "2",
+      "title": "Eventify",
+      "description": "Eventify simplifies event management and ticket booking, offering an intuitive platform for organizers and attendees.",
+      "technologies": ["Javascript","React", "Node.js", "Express.Js","MySql","Redux","Tailwind CSS","Socket.io","Shadcn UI"],
+      "live_url": "http://116.202.210.102:5185/",
+      "code_repo_url": "https://github.com/gautamkumar1/Eventify",
+      "cover": "/assets/Eventify.png"
+    },
+    {
+      "id": "3",
       "title": "G-Meet",
       "description": "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
       "technologies": ["Typescript", "Next.js", "Shadcn UI", "Tailwind CSS","Clerk","Getstream"],
@@ -79,7 +88,7 @@
       "cover": "/assets/project_2.png"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Formulate",
       "description": "A Formulate used to easily craft Form with drag and drop simplicity.",
       "technologies": ["Typescript", "Next.js", "TailwindCSS", "Shadcn UI","Vercel PostgreSQL","Prisma"],
@@ -88,7 +97,7 @@
       "cover": "/assets/project_3.png"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "SyntaxSniper",
       "description": "Developed a feature-rich code snippet sharing tool, leveraging a modern tech stack and incorporating additional functionalities.",
       "technologies": ["Javascript", "React", "TailwindCSS", "Shadcn UI","Zustand"],
@@ -97,13 +106,22 @@
       "cover": "/assets/project_4.png"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Thread",
       "description": "A thread is a full-stack advanced social media website specifically designed for developers.",
       "technologies": ["React", "Node.js", "Express.Js","MongoDB","Socket.io","Shadcn UI"],
       "live_url": "https://threads-clone-vxq4.onrender.com/auth",
       "code_repo_url": "https://github.com/gautamkumar1/threads-clone",
       "cover": "/assets/project_5.png"
+    },
+    {
+      "id": "7",
+      "title": "Blog Website",
+      "description": "A comprehensive Blog Website System with features for user authentication, blog management, and administrative control.",
+      "technologies": ["React", "Node.js", "Express.Js","MongoDB","Shadcn UI"],
+      "live_url": "http://116.202.210.102:5181/",
+      "code_repo_url": "https://github.com/gautamkumar1/Blog-Website",
+      "cover": "/assets/image.png"
     }
   ],
   "workExperience": [
